@@ -1,14 +1,17 @@
-#*
-*#
-.#*
-*~
-.idea
-*.iml
-.factorypath
-
-
-.classpath
+*.class
+ 
+# Package Files #
+*.jar
+*.war
+*.ear
+ 
+# ignore Maven generated target folders
+target
+target/*
+src/main/webapp/logs/
+ 
+# ignore eclipse files
 .project
-.settings/
-
-/target/
+.classpath
+.settings
+.metadata
