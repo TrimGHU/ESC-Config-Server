@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *.class
  
 # Package Files #
@@ -8,7 +7,6 @@
  
 # ignore Maven generated target folders
 target
-target/*
 src/main/webapp/logs/
  
 # ignore eclipse files
@@ -16,20 +14,3 @@ src/main/webapp/logs/
 .classpath
 .settings
 .metadata
-=======
-*.class
- 
-# Package Files #
-*.jar
-*.war
-*.ear
- 
-# ignore Maven generated target folders
-target
- 
-# ignore eclipse files
-.project
-.classpath
-.settings
-.metadata
->>>>>>> 1d423e45a2b4e5b538a228e8665a5802457221eb
